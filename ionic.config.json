@@ -1,0 +1,7 @@
+{
+  "name": "coronavurus 3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
