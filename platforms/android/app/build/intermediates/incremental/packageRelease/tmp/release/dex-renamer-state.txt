@@ -1,0 +1,4 @@
+#Sat Mar 28 19:37:53 WAT 2020
+base.0=D\:\\Dev\\ionicApp\\coronavirus-3\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
