@@ -1,12 +1,65 @@
-import { Component } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import { Network } from '@ionic-native/network/ngx';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tabs',
   templateUrl: 'tabs.page.html',
   styleUrls: ['tabs.page.scss']
 })
-export class TabsPage {
+export class TabsPage implements OnDestroy, OnInit {
+    public selectedIndex = 0;
+    public appPages = [
+        {
+            title: 'Inbox',
+            url: '/folder/Inbox',
+            icon: 'mail'
+        },
+        {
+            title: 'Outbox',
+            url: '/folder/Outbox',
+            icon: 'paper-plane'
+        },
+        {
+            title: 'Favorites',
+            url: '/folder/Favorites',
+            icon: 'heart'
+        },
+        {
+            title: 'Archived',
+            url: '/folder/Archived',
+            icon: 'archive'
+        },
+        {
+            title: 'Trash',
+            url: '/folder/Trash',
+            icon: 'trash'
+        },
+        {
+            title: 'Spam',
+            url: '/folder/Spam',
+            icon: 'warning'
+        }
+    ];
+    public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
-  constructor() {}
-
+    constructor(private network: Network, private menu: MenuController) {
+     this.network.onDisconnect().subscribe(
+        () => {
+          alert('You must connect on internet');
+        }
+    );
+  }
+    openFirst() {
+        this.menu.enable(true, 'first');
+        this.menu.open('first');
+    }
+    ngOnInit() {
+        const path = window.location.pathname.split('folder/')[1];
+        if (path !== undefined) {
+            this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
+        }
+    }
+  ngOnDestroy(): void {
+  }
 }

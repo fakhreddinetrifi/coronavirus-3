@@ -1,15 +1,67 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Protection
+      {{info?.country | titlecase}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+            pullingIcon="arrow-dropdown"
+            refreshingSpinner="circles"
+            refreshingText="Refreshing..."
+            close-duration="2000ms">
+    </ion-refresher-content>
+  </ion-refresher>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        <ion-text color="danger">Cases Confirmed: </ion-text> {{info?.cases | number}}
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Today Cases: {{info?.todayCases}}</p>
+      <p><span style="color: #3171e0;">Active: </span>{{info?.active}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+
+      <ion-card-title>
+        Deaths: {{info?.deaths | number}}
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Today Deaths: {{info?.todayDeaths}}</p>
+      <p><span style="color: #e0ac08">Critical: </span>{{info?.critical}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+
+      <ion-card-title>
+        <ion-text color="success">Recovered: </ion-text>{{info?.recovered | number}}
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>GOVERNORATES</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #barChart height="500"></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item *ngFor="let governement of governements">
+      <ion-label>{{governement?.nom}}</ion-label>
+      <ion-badge color="light">{{governement?.val}}</ion-badge>
+    </ion-item>
+  </ion-list>
 </ion-content>

@@ -7,11 +7,19 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+            pullingIcon="arrow-dropdown"
+            refreshingSpinner="circles"
+            refreshingText="Refreshing..."
+            close-duration="2000ms">
+    </ion-refresher-content>
+  </ion-refresher>
   <ion-card  class="ion-text-center">
     <ion-card-header>
 
         <ion-card-title>
-          <ion-text color="danger">Globla Cases Confirmed</ion-text>
+          <ion-text color="danger">Cases Confirmed</ion-text>
         </ion-card-title>
     </ion-card-header>
     <ion-card-content>
@@ -40,6 +48,14 @@
     </ion-card-header>
     <ion-card-content>
       <h1>{{info?.recovered | number}}</h1>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Population with coronavirus</ion-card-title>
+    </ion-card-header>
+    <ion-card-content  style="position: relative; height: 40vh">
+      <canvas #barChart></canvas>
     </ion-card-content>
   </ion-card>
 </ion-content>

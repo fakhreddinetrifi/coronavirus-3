@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import {AngularFireDatabase} from '@angular/fire/database';
 
 const API_URL = 'https://coronavirus-19-api.herokuapp.com';
 
@@ -7,7 +8,7 @@ const API_URL = 'https://coronavirus-19-api.herokuapp.com';
   providedIn: 'root'
 })
 export class CoronaServService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private db: AngularFireDatabase) { }
   getAll() {
   return this.http.get(`${API_URL}/all`);
   }
@@ -15,4 +16,11 @@ export class CoronaServService {
   getCountries() {
     return this.http.get(`${API_URL}/countries`);
   }
+  getGovernements() {
+    return this.db.list('governement');
+  }
+  getVolunteer() {
+    return this.db.list('volunteer');
+  }
+
 }

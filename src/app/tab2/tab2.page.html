@@ -4,18 +4,28 @@
       Coronavirus by Country
     </ion-title>
   </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar [(ngModel)]="searchCountry" autocomplete="off"  position="fixed"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-searchbar [(ngModel)]="searchCountry" autocomplete="off"></ion-searchbar>
-  <ion-card *ngFor="let i of info | filter:searchCountry">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+            pullingIcon="arrow-dropdown"
+            refreshingSpinner="circles"
+            refreshingText="Refreshing..."
+            close-duration="2000ms">
+    </ion-refresher-content>
+  </ion-refresher>
+  <ion-card *ngFor="let i of info | filter:searchCountry" (click)="presentModal(i?.country,i?.cases,i?.deaths, i?.recovered)">
     <ion-card-header>
-      <ion-card-title>{{ i?.country }}</ion-card-title>
+      <ion-card-title>{{ i?.country }} <span class="ion-float-right"><ion-text color="danger">Cases: </ion-text>{{ i?.cases | number }}</span></ion-card-title>
     </ion-card-header>
 
     <ion-card-content>
       <p><ion-text color="primary">Active: </ion-text>{{ i?.active | number}}</p>
-      <p><ion-text color="danger">Cases: </ion-text>{{ i?.cases | number }} | <ion-text color="danger">Today Cases: </ion-text>{{i?.todayCases | number}}</p>
+      <p><ion-text color="danger">Today Cases: </ion-text>{{i?.todayCases | number}}</p>
       <p>Deaths: {{ i?.deaths | number }} | Today Deaths: {{i?.todayDeaths | number}}</p>
       <p><ion-text color="success">Recovered: </ion-text>{{ i?.recovered | number }} | <ion-text color="success">Critical: </ion-text>{{i?.critical | number}}</p>
     </ion-card-content>

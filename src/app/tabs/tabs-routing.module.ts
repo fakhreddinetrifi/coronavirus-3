@@ -38,6 +38,36 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'volunteer',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+                import('../volunteer/volunteer.module').then(m => m.VolunteerPageModule)
+          }
+        ]
+      },
+      {
+        path: 'protection',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+                import('../protection/protection.module').then(m => m.ProtectionPageModule)
+          }
+        ]
+      },
+      {
+        path: 'about',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+                import('../about/about.module').then(m => m.AboutPageModule)
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

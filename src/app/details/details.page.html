@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="dark" (click)="closeModal()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{this.info?.country | titlecase}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+    <ion-title>Cases confirmed: {{infoCases | number}}</ion-title>
+  </ion-toolbar>
+  <ion-card>
+    <ion-card-content>
+      <canvas #barChart [style.height.px]="infoCases > 600 ? 300 : 150"></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+    </ion-card-header>
+    <ion-card-content >
+      <canvas #pie style="height: 300px"></canvas>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
