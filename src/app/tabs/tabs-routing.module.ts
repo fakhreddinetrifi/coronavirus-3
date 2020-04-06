@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+
 import { TabsPage } from './tabs.page';
 
 const routes: Routes = [
@@ -13,7 +14,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-              import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+                import('../tab1/tab1.module').then(m => m.Tab1PageModule)
           }
         ]
       },
@@ -23,17 +24,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-              import('../tab2/tab2.module').then(m => m.Tab2PageModule)
-          }
-        ]
-      },
-      {
-        path: 'tab3',
-        children: [
-          {
-            path: '',
-            loadChildren: () =>
-              import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+                import('../tab2/tab2.module').then(m => m.Tab2PageModule)
           }
         ]
       },
@@ -53,7 +44,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-                import('../protection/protection.module').then(m => m.ProtectionPageModule)
+                import('../protection/protection.module').then( m => m.ProtectionPageModule)
           }
         ]
       },
@@ -63,7 +54,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-                import('../about/about.module').then(m => m.AboutPageModule)
+                import('../about/about.module').then( m => m.AboutPageModule)
           }
         ]
       },
@@ -83,6 +74,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class TabsPageRoutingModule {}

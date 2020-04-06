@@ -2,39 +2,630 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d75d50-3554-4681-bc51-10cdbd47a0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/itAcademy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/tab1/tab1-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/tab2/tab2-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Covid-19.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-release-unsigned.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app-routing.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app-routing.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app-routing.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app-routing.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/tab2/tab2.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/tab2/tab2.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/tab2/tab2.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/tab2/tab2.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/tabs/tabs.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/tabs/tabs.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/tabs/tabs.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/tabs/tabs.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app-routing.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app-routing.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app-routing.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app-routing.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app.component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/app.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/tab2/tab2.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/tab2/tab2.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/tab2/tab2.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/tab2/tab2.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/tabs/tabs.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/tabs/tabs.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/app/app/tabs/tabs.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/app/app/tabs/tabs.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/app.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/app.component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/tab2/tab2.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/tab2/tab2.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/tab2/tab2.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/tab2/tab2.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/tabs/tabs.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/tabs/tabs.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-tsc/spec/app/tabs/tabs.page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/out-tsc/spec/app/tabs/tabs.page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/1-es2015.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/1-es5.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/100-es2015.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/100-es5.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/101-es2015.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/101-es5.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/15-es2015.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/15-es5.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/16-es2015.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/16-es5.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/17-es2015.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/17-es5.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/18-es2015.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/18-es5.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/19-es2015.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/19-es5.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/20-es2015.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/20-es5.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/21-es2015.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/21-es5.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/22-es2015.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/22-es5.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/23-es2015.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/23-es5.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/24-es2015.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/24-es5.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/25-es2015.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/25-es5.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/26-es2015.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/26-es5.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/27-es2015.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/27-es5.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/28-es2015.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/28-es5.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/29-es2015.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/29-es5.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/30-es2015.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/30-es5.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/31-es2015.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/31-es5.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/32-es2015.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/32-es5.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/33-es2015.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/33-es5.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/34-es2015.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/34-es5.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/35-es2015.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/35-es5.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/36-es2015.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/36-es5.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/37-es2015.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/37-es5.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/38-es2015.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/38-es5.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/39-es2015.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/39-es5.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/40-es2015.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/40-es5.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/41-es2015.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/41-es5.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/42-es2015.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/42-es5.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/43-es2015.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/43-es5.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/44-es2015.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/44-es5.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/45-es2015.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/45-es5.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/46-es2015.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/46-es5.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/47-es2015.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/47-es5.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/48-es2015.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/48-es5.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/49-es2015.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/49-es5.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/50-es2015.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/50-es5.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/51-es2015.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/51-es5.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/52-es2015.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/52-es5.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/53-es2015.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/53-es5.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/54-es2015.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/54-es5.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/55-es2015.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/55-es5.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/56-es2015.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/56-es5.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/57-es2015.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/57-es5.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/58-es2015.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/58-es5.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/59-es2015.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/59-es5.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/60-es2015.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/60-es5.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/61-es2015.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/61-es5.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/62-es2015.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/62-es5.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/63-es2015.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/63-es5.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/64-es2015.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/64-es5.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/65-es2015.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/65-es5.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/66-es2015.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/66-es5.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/67-es2015.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/67-es5.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/68-es2015.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/68-es5.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/69-es2015.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/69-es5.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/70-es2015.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/70-es5.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/71-es2015.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/71-es5.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/72-es2015.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/72-es5.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/73-es2015.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/73-es5.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/74-es2015.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/74-es5.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/75-es2015.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/75-es5.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/76-es2015.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/76-es5.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/77-es2015.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/77-es5.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/78-es2015.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/78-es5.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/79-es2015.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/79-es5.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/80-es2015.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/80-es5.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/81-es2015.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/81-es5.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/82-es2015.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/82-es5.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/83-es2015.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/83-es5.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/84-es2015.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/84-es5.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/85-es2015.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/85-es5.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/86-es2015.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/86-es5.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/87-es2015.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/87-es5.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/88-es2015.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/88-es5.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/89-es2015.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/89-es5.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/90-es2015.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/90-es5.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/91-es2015.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/91-es5.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/92-es2015.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/92-es5.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/93-es2015.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/93-es5.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/94-es2015.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/94-es5.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/95-es2015.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/95-es5.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/96-es2015.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/96-es5.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/97-es2015.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/97-es5.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/98-es2015.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/98-es5.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/99-es2015.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/99-es5.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/common-es2015.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/common-es5.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/main-es2015.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/main-es5.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/runtime-es2015.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/runtime-es5.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/styles.098a572a54fba4b53f1c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build/reports/lint-results-release-fatal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/1-es2015.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/1-es5.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/100-es2015.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/100-es5.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/101-es2015.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/101-es5.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/15-es2015.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/15-es5.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/16-es2015.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/16-es5.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/17-es2015.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/17-es5.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/18-es2015.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/18-es5.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/19-es2015.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/19-es5.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/20-es2015.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/20-es5.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/21-es2015.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/21-es5.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/22-es2015.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/22-es5.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/23-es2015.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/23-es5.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/24-es2015.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/24-es5.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/25-es2015.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/25-es5.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/26-es2015.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/26-es5.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/27-es2015.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/27-es5.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/28-es2015.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/28-es5.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/29-es2015.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/29-es5.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/30-es2015.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/30-es5.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/31-es2015.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/31-es5.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/32-es2015.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/32-es5.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/33-es2015.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/33-es5.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/34-es2015.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/34-es5.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/35-es2015.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/35-es5.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/36-es2015.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/36-es5.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/37-es2015.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/37-es5.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/38-es2015.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/38-es5.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/39-es2015.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/39-es5.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/40-es2015.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/40-es5.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/41-es2015.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/41-es5.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/42-es2015.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/42-es5.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/43-es2015.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/43-es5.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/44-es2015.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/44-es5.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/45-es2015.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/45-es5.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/46-es2015.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/46-es5.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/47-es2015.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/47-es5.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/48-es2015.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/48-es5.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/49-es2015.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/49-es5.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/50-es2015.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/50-es5.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/51-es2015.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/51-es5.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/52-es2015.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/52-es5.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/53-es2015.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/53-es5.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/54-es2015.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/54-es5.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/55-es2015.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/55-es5.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/56-es2015.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/56-es5.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/57-es2015.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/57-es5.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/58-es2015.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/58-es5.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/59-es2015.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/59-es5.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/60-es2015.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/60-es5.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/61-es2015.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/61-es5.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/62-es2015.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/62-es5.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/63-es2015.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/63-es5.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/64-es2015.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/64-es5.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/65-es2015.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/65-es5.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/66-es2015.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/66-es5.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/67-es2015.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/67-es5.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/68-es2015.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/68-es5.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/69-es2015.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/69-es5.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/70-es2015.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/70-es5.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/71-es2015.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/71-es5.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/72-es2015.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/72-es5.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/73-es2015.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/73-es5.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/74-es2015.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/74-es5.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/75-es2015.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/75-es5.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/76-es2015.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/76-es5.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/77-es2015.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/77-es5.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/78-es2015.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/78-es5.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/79-es2015.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/79-es5.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/80-es2015.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/80-es5.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/81-es2015.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/81-es5.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/82-es2015.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/82-es5.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/83-es2015.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/83-es5.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/84-es2015.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/84-es5.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/85-es2015.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/85-es5.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/86-es2015.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/86-es5.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/87-es2015.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/87-es5.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/88-es2015.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/88-es5.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/89-es2015.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/89-es5.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/90-es2015.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/90-es5.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/91-es2015.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/91-es5.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/92-es2015.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/92-es5.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/93-es2015.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/93-es5.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/94-es2015.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/94-es5.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/95-es2015.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/95-es5.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/96-es2015.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/96-es5.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/97-es2015.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/97-es5.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/98-es2015.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/98-es5.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/99-es2015.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/99-es5.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/common-es2015.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/common-es5.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es2015.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es5.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/runtime-es2015.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/runtime-es5.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/styles.098a572a54fba4b53f1c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/lint-cache/maven.google/com/android/tools/build/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/lint-cache/maven.google/com/android/tools/build/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/service/corona-serv.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service/corona-serv.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/details/details.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/details/details.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/protection/protection.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/protection/protection.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab1/tab1.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab1/tab1.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab3/tab3.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabs/tabs.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/volunteer/volunteer.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/volunteer/volunteer.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es2015.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es5.1c6823c42f9699df9503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/100-es2015.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/100-es5.3a1679e8e5ce60704a7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/101-es2015.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/101-es5.dc2fecb44e92db26fd5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es2015.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es5.d91315a68985d56b0c42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es2015.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es5.edde0756aaa015857671.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es2015.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es5.709fce1b5e370aa78c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es2015.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es5.fbd14487ce352d0cebab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es2015.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es5.fbc0736dc1f861158cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es2015.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es5.b98ab9117eddef1d1a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es2015.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es5.8f9e71bda89a90951499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es2015.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es5.57aa61d4fc92afc86905.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es2015.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es5.913da6d68adf3e9b51b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es2015.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es5.8b47e2d394df14dc00a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es2015.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es5.2bc064db97a995c8e95b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es2015.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es5.a6547720fb3e5129f3d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es2015.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es5.28ab607c31e77b5c9f24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es2015.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es5.29fd50c3b91489a81ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es2015.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es5.fa082065dda9796d76e6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es2015.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es5.d2d5dedf9e975e22ae26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es2015.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es5.19a1ecef4088c073d093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es2015.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es5.a35ef289fe614caa1244.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es2015.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es5.fcab8908066324181df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es2015.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es5.fa8389de11639df6946e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es2015.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es5.75ae35c1195012f26b0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es2015.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es5.36aec4479bdffc322d21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es2015.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es5.2a0f8d3c8e59608cae8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es2015.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es5.0a8389b7154ba54a6347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es2015.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es5.85adf4c395abc898d7a4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es2015.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es5.22138b3e3b0452312893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es2015.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es5.ae4d5b3d4ee14e5b5fa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es2015.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es5.a39d16d017febad653a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es2015.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es5.554b356f21c6fc67a8ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es2015.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es5.fa36fbe24ba452a727c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es2015.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es5.19f53ea9224c2245839e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es2015.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es5.87312ad8f67d1d3091fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es2015.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es5.557c3083221e8a682cea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es2015.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es5.2e53593b35beda05f91a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es2015.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es5.2d577031fd1d3eead9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es2015.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es5.e71458e42103893b03fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es2015.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es5.26321f84fe572f2218c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es2015.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es5.b0b055190f0c08928369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es2015.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es5.bb27cc05ec1939ddca53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es2015.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es5.ac1121a1669002aa09f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es2015.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es5.863584b93495252c8917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es2015.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es5.1230106bceffa8e0b863.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es2015.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es5.24465347bcd08eb3c4a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es2015.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es5.03fc83391977a0e03110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es2015.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es5.fb62025363b70a1bef5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es2015.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es5.95e9ed76eb43bd137e0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es2015.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es5.237844c369c6a6bd1cef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es2015.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es5.06ae385a0bcc5be154a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es2015.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es5.8de65505b41259798aae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es2015.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es5.ddf4af5b6f71d278ba43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es2015.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es5.bda9f94d6ad9341478dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es2015.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es5.5cb4b35becb798cec728.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es2015.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es5.dd3d003643ac4af0a54e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es2015.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es5.a4a2165b213923c4958a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es2015.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es5.9b08b69c5a5fb81dd40d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es2015.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es5.08646dd57007c5436a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es2015.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es5.4ea62fdc706f3abf2290.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es2015.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es5.6028fa0f653e9000ac22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es2015.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es5.c48bf5dc63dbe2fff3c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es2015.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es5.d7dabe7ea4abc5d98c98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es2015.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es5.8dfe7197710cfaeeae6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es2015.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es5.3d6c82acf8283b233f60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es2015.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es5.cedcc997ee74d07bf8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/78-es2015.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/78-es5.f4023f9e24fb3a42ac3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/79-es2015.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/79-es5.d004aca08c637759da32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/80-es2015.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/80-es5.fbc97e07f3ef22de7500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/81-es2015.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/81-es5.542a6ad811fd52ee5b65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/82-es2015.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/82-es5.f5cd855d160b3e5d66da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/83-es2015.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/83-es5.992e957f43c15811f3cf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/84-es2015.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/84-es5.a19e5fc4ec026926f894.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/85-es2015.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/85-es5.9705d09fb90e3c73f74e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/86-es2015.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/86-es5.3c8d8f0c0512edf3e0e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/87-es2015.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/87-es5.4cdca1e5c45666282b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/88-es2015.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/88-es5.dbaaf66dd6fe42b69f08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/89-es2015.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/89-es5.31d8df23b7b09ef5abe8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/90-es2015.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/90-es5.9ecbe9f300575c877fb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/91-es2015.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/91-es5.b56c9ef027b3fc040d81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/92-es2015.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/92-es5.2cf9e915882e90b8a81e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/93-es2015.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/93-es5.9370b510d4e53e52b0d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/94-es2015.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/94-es5.1808e6fbd3aec72299b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/95-es2015.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/95-es5.9e1b09e02145ceca5c41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/96-es2015.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/96-es5.5100a962262cecd883a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/97-es2015.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/97-es5.867834256f70e600ae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/98-es2015.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/98-es5.38c152d52e61969eec28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/99-es2015.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/99-es5.d830d35ee280c2de151e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es2015.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es5.768640366c82b6c6182d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2015.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.6f7ce4e90e49e87e52dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es2015.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es5.710456363ea8c9ea4239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles.098a572a54fba4b53f1c.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,45 +639,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="45" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -104,7 +662,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/theme/variables.scss" />
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/tab3/chart/chart.component.html" />
@@ -115,26 +672,38 @@
         <option value="$PROJECT_DIR$/src/app/tab1/tab1.module.ts" />
         <option value="$PROJECT_DIR$/src/app/details/details.module.ts" />
         <option value="$PROJECT_DIR$/src/app/tab2/covid.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.html" />
         <option value="$PROJECT_DIR$/src/app/details/details.page.ts" />
         <option value="$PROJECT_DIR$/src/app/service/corona-serv.service.ts" />
         <option value="$PROJECT_DIR$/src/app/volunteer/volunteer.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/volunteer/volunteer.page.html" />
-        <option value="$PROJECT_DIR$/src/app/tab3/tab3.page.html" />
-        <option value="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/about/about.page.html" />
-        <option value="$PROJECT_DIR$/src/app/tab2/tab2.page.html" />
-        <option value="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/details/details.page.html" />
-        <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/protection/protection.page.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/../dashbordCovid-19/config.xml" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/tabs/tabs.page.scss" />
+        <option value="$PROJECT_DIR$/src/app/tab1/tab1-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab2/tab2-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab3/tab3-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/protection/protection.page.html" />
+        <option value="$PROJECT_DIR$/src/app/tab3/tab3.page.html" />
+        <option value="$PROJECT_DIR$/src/app/volunteer/volunteer.page.html" />
+        <option value="$PROJECT_DIR$/src/app/protection/protection.page.scss" />
+        <option value="$PROJECT_DIR$/src/app/about/about.page.scss" />
+        <option value="$PROJECT_DIR$/src/global.scss" />
+        <option value="$PROJECT_DIR$/src/theme/variables.scss" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab2/tab2.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.scss" />
+        <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/details/details.page.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.html" />
+        <option value="$PROJECT_DIR$/src/app/tab2/tab2.page.html" />
+        <option value="$PROJECT_DIR$/src/app/about/about.page.html" />
         <option value="$PROJECT_DIR$/src/app/tabs/tabs.page.html" />
       </list>
     </option>
@@ -150,8 +719,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,31 +729,21 @@
             <path>
               <item name="coronavirus-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="coronavirus-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coronavirus-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coronavirus-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coronavirus-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coronavirus-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="tabs" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dashbordCovid-19/src/app/app-routing.module.ts" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -195,6 +752,9 @@
     <property name="ts.external.directory.path" value="D:\Dev\ionicApp\coronavirus-3\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\ionicApp\coronavirus-3\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\ionicApp\coronavirus-3\resources" />
       <recent name="D:\Dev\ionicApp\coronavirus-3\platforms\android\app\build\intermediates\merged_assets\release\mergeReleaseAssets\out\www\svg" />
@@ -233,17 +793,56 @@
       <workItem from="1585315460430" duration="2197000" />
       <workItem from="1585318052102" duration="3048000" />
       <workItem from="1585419982611" duration="4505000" />
+      <workItem from="1585500249681" duration="656000" />
+      <workItem from="1585687572259" duration="17220000" />
+      <workItem from="1585750991743" duration="3850000" />
+      <workItem from="1585773958806" duration="250000" />
+      <workItem from="1586117829991" duration="15576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78362000" />
+    <option name="totallyTimeSpent" value="115914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28441754" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.95020187" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Jelastic" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
+      <window_info anchor="right" id="RestServices" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,255 +874,12 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
       <window_info anchor="right" id="RestServices" order="10" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab3/chart/chart.component.html" />
-    <entry file="file://$PROJECT_DIR$/src/app/tab3/chart/chart.component.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="7889" column="8" selection-start-line="7889" selection-start-column="8" selection-end-line="7889" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab1/chart/chart.component.html" />
-    <entry file="file://$PROJECT_DIR$/src/app/tab1/chart/chart.component.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/details/details.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab2/covid.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" selection-start-line="21" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/corona-serv.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/volunteer/volunteer.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/tab2/tab2.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/about/about.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="true" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/details/details.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/volunteer/volunteer.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#1;n#ion-card-content#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#ion-card-content#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/about.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/details/details.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#ion-card-content#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#ion-card-content#0;n#ion-card#3;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/assets/www/svg/add-circle.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out/www/svg/arrow-forward.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/svg/arrow-dropdown.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -552,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/protection/protection.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -580,10 +929,228 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/about/about-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/protection/protection-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/volunteer/volunteer.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/about.page.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/protection/protection.page.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3.page.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/tab3/tab3.page.html" />
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/3599919.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/XD/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.page.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/service/corona-serv.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/details/details.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/details/details.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#ion-card-content#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#pieCharts#0;n#Tab2Page#0" />
+            <element signature="n#!!block;n#presentModal#0;n#Tab2Page#0" />
+            <element signature="n#!!block;n#doRefresh#0;n#Tab2Page#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/tabs/tabs.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/tabs/tabs.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/tabs/tabs-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dashbordCovid-19/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -592,35 +1159,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="45" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="45" />
+        <state relative-caret-position="187">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="20" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/protection/protection.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab2/tab2.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="136" column="59" lean-forward="true" selection-start-line="136" selection-start-column="59" selection-end-line="136" selection-end-column="59" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#ion-card-content#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#ion-card-content#1;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#ion-card-content#0;n#ion-card#3;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/about.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#ion-avatar#0;n#div#0;n#ion-col#1;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/tabs/tabs.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>

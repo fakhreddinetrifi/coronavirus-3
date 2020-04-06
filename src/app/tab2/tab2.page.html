@@ -1,11 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
       Coronavirus by Country
     </ion-title>
   </ion-toolbar>
-  <ion-toolbar>
-    <ion-searchbar [(ngModel)]="searchCountry" autocomplete="off"  position="fixed"></ion-searchbar>
+  <ion-toolbar *ngIf="type !== 'tunisia'">
+    <ion-searchbar [(ngModel)]="searchCountry" autocomplete="off"  position="fixed" ></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
@@ -18,16 +21,142 @@
             close-duration="2000ms">
     </ion-refresher-content>
   </ion-refresher>
-  <ion-card *ngFor="let i of info | filter:searchCountry" (click)="presentModal(i?.country,i?.cases,i?.deaths, i?.recovered)">
-    <ion-card-header>
-      <ion-card-title>{{ i?.country }} <span class="ion-float-right"><ion-text color="danger">Cases: </ion-text>{{ i?.cases | number }}</span></ion-card-title>
-    </ion-card-header>
 
-    <ion-card-content>
-      <p><ion-text color="primary">Active: </ion-text>{{ i?.active | number}}</p>
-      <p><ion-text color="danger">Today Cases: </ion-text>{{i?.todayCases | number}}</p>
-      <p>Deaths: {{ i?.deaths | number }} | Today Deaths: {{i?.todayDeaths | number}}</p>
-      <p><ion-text color="success">Recovered: </ion-text>{{ i?.recovered | number }} | <ion-text color="success">Critical: </ion-text>{{i?.critical | number}}</p>
-    </ion-card-content>
-  </ion-card>
+  <ion-segment [(ngModel)]="type">
+    <ion-segment-button value="tunisia">
+      <ion-label>Tunisia</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="all">
+      <ion-label>All</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <div [ngSwitch]="type">
+    <div *ngSwitchCase="'all'">
+<!--      <ion-card *ngFor="let i of info | filter:searchCountry" (click)="presentModal(i?.country,i?.cases,i?.deaths, i?.recovered)">-->
+<!--        <ion-card-header>-->
+<!--          <ion-card-title>{{ i?.country }} <span class="ion-float-right"><ion-text color="danger">Cases: </ion-text>{{ i?.cases | number }}</span></ion-card-title>-->
+<!--        </ion-card-header>-->
+
+<!--        <ion-card-content>-->
+<!--          <p><ion-text color="primary">Active: </ion-text>{{ i?.active | number}}</p>-->
+<!--          <p><ion-text color="danger">Today Cases: </ion-text>{{i?.todayCases | number}}</p>-->
+<!--          <p>Deaths: {{ i?.deaths | number }} | Today Deaths: {{i?.todayDeaths | number}}</p>-->
+<!--          <p><ion-text color="success">Recovered: </ion-text>{{ i?.recovered | number }} | <ion-text color="success">Critical: </ion-text>{{i?.critical | number}}</p>-->
+<!--        </ion-card-content>-->
+<!--      </ion-card>-->
+        <ion-list *ngFor="let i of info | filter:searchCountry" (click)="presentModal(i?.country,i?.cases,i?.deaths, i?.recovered)">
+
+          <ion-list-header>
+            <ion-label class="ion-padding-end"><h1>{{i.country}} <span class="ion-float-right"><ion-text color="danger">Cases: </ion-text>{{ i?.cases | number }}</span></h1></ion-label>
+          </ion-list-header>
+          <ion-item>
+            <ion-label>
+              <p>
+                <strong><ion-text color="primary">Active: </ion-text></strong>{{i.active | number}}
+              </p>
+
+              <p>
+                <ion-text color="danger"> Today cases: </ion-text>{{i.todayCases | number}}
+              </p>
+
+              <p><strong><ion-text color="dark">Deaths: </ion-text></strong> {{i.deaths | number}} | Today: {{i.todayDeaths | number}} | Critical {{i.critical | number}}</p>
+              <p>
+                <strong><ion-text color="success">Recovered: </ion-text></strong>{{i.recovered | number}}
+              </p>
+              <p>
+                <strong>Total Tests: </strong>{{i.totalTests | number}}
+              </p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+    </div>
+
+<!--      <ion-card *ngSwitchCase="'tunisia'">-->
+<!--        <ion-card-header>-->
+<!--          <ion-card-title>-->
+<!--            <ion-text color="danger">Cases Confirmed: </ion-text> {{tunisia?.cases | number}}-->
+<!--          </ion-card-title>-->
+<!--        </ion-card-header>-->
+<!--        <ion-card-content>-->
+<!--          <p>Today Cases: {{tunisia?.todayCases}}</p>-->
+<!--          <p><span style="color: #3171e0;">Active: </span>{{tunisia?.active}}</p>-->
+<!--        </ion-card-content>-->
+<!--      </ion-card>-->
+
+<!--      <ion-card *ngSwitchCase="'tunisia'">-->
+<!--        <ion-card-header>-->
+
+<!--          <ion-card-title>-->
+<!--            Deaths: {{tunisia?.deaths | number}}-->
+<!--          </ion-card-title>-->
+<!--        </ion-card-header>-->
+<!--        <ion-card-content>-->
+<!--          <p>Today Deaths: {{tunisia?.todayDeaths}}</p>-->
+<!--          <p><span style="color: #e0ac08">Critical: </span>{{tunisia?.critical}}</p>-->
+<!--        </ion-card-content>-->
+<!--      </ion-card>-->
+
+<!--      <ion-card *ngSwitchCase="'tunisia'">-->
+<!--        <ion-card-header>-->
+
+<!--          <ion-card-title>-->
+<!--            <ion-text color="success">Recovered: </ion-text>{{tunisia?.recovered | number}}-->
+<!--          </ion-card-title>-->
+<!--        </ion-card-header>-->
+<!--      </ion-card>-->
+
+    <div *ngSwitchCase="'tunisia'">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-text color="danger">Cases Confirmed: </ion-text> {{tunisia?.cases | number}}
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Today Cases: {{tunisia?.todayCases}}</p>
+        <p><span style="color: #3171e0;">Active: </span>{{tunisia?.active}}</p>
+      </ion-card-content>
+
+      <ion-card-header>
+
+        <ion-card-title>
+          Deaths: {{tunisia?.deaths | number}}
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Today Deaths: {{tunisia?.todayDeaths}}</p>
+        <p><span style="color: #e0ac08">Critical: </span>{{tunisia?.critical}}</p>
+      </ion-card-content>
+
+      <ion-card-header>
+
+      <ion-card-title>
+        <ion-text color="success">Recovered: </ion-text>{{tunisia?.recovered | number}}
+      </ion-card-title>
+    </ion-card-header>
+    </div>
+    <ion-card [hidden]="type === 'tunisia' ? false : true">
+      <ion-card-header>
+        <ion-card-title>
+          Governorates infected with coronavirus
+        </ion-card-title>
+
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #barChart height="500"></canvas>
+      </ion-card-content>
+    </ion-card>
+
+
+    <ion-list [hidden]="type === 'tunisia' ? false : true">
+      <ion-list-header lines="full">
+        <ion-text><h3>List of governorates infected with coronavirus</h3></ion-text>
+      </ion-list-header>
+
+        <ion-item *ngFor="let governement of governements">
+          <ion-label>{{governement?.nom}}</ion-label>
+          <ion-badge color="light">{{governement?.val}}</ion-badge>
+        </ion-item>
+
+    </ion-list>
+    </div>
 </ion-content>
